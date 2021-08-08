@@ -86,7 +86,6 @@
 
 .shop-wrapper {
   max-width: 730px;
-  min-width: 710px;
   margin-bottom: 50px;
 }
 
@@ -102,8 +101,8 @@
   height: 225px;
 }
 
-.product-section:nth-child(n+3) {
-  margin-top: 48px;
+.product-section {
+  margin-bottom: 48px;;
 }
 
 .product-info-link {
@@ -114,4 +113,10 @@
 
 .footer {
   max-width: 730px;
+}
+
+@media (orientation: landscape) {
+  .trends-post-section {
+    width: calc(25% - 3px);
+  }
 }

@@ -151,3 +151,9 @@
 .social {
   margin-bottom: 45px;
 }
+
+@media (orientation: landscape) {
+  .trends-post-section {
+    width: calc(50% - 2px);
+  }
+}
